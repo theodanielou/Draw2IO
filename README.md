@@ -2,6 +2,8 @@
 
 Jeu WEB multijoueur, 2D (Python, Flask, JavaScript, HTML, CSS)
 
+Le jeu est disponible à cette adresse : http://draw2io.h.minet.net/
+
 Le groupe est constitué de Théo, Rohit, David et Brieuc
 
 #Livrable prototype 25/03
