@@ -11,3 +11,4 @@ This game is a two vs two drawing game. Each team receives a word (say "house") 
 This way each player participates in a drawing, but only by drawing on half the possible canvas. This means that your cooperation skills are crucial to get to a good final result! At the end of the round, the teams are mixed up and another word comes up. At the end of a given number of round, the game ends and players get to vote for each drawing (if they like it more or less)
 Then the each player gets more or less points depending on whether the drawings he had a part in had good votes or not, and the final winner is chosen !
 
+![image](https://github.com/theodanielou/Draw2IO/assets/148277783/b524258a-2254-46a1-bbe9-e285b9c24470)
