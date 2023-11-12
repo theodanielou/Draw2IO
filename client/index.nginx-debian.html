@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="icon" type="image/png" href="logo.png" />
+    <link rel="stylesheet" href="font_body.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap" rel="stylesheet"><meta charset="UTF-8">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap" rel="stylesheet">
+    <title>Draw2io</title>
+</head>
+<script src=socket.io.min.js></script>
+<script src=p5.min.js></script>
+<script src=indexApp.js></script>
+
+<body scroll="no">
+    <div id="conteneur">
+        <div id="gauche">
+            <div id="haut_gauche">
+                <img src="logo.png" id="image">
+                <div id="nom"> Draw2IO  </br> Le jeu délirant </div>
+            </div>
+            <div id="boite" style="overflow:auto">
+                <p style="font-weight:bold; text-decoration:underline">Règles du jeu :</p>
+                <ul style="margin-right:5%">
+                    <li>Dans ce jeu, le but est d’accumuler un maximum de points en dessinant le mieux possible. Mais attention, les dessins se font par équipe de deux, une bonne coordination et de la coopération sera nécessaire pour l’emporter !<br /> </li>
+                    <li>Le déroulé du jeu est le suivant : d’abord les 4 joueurs s’affrontent en 2vs2 sur un thème donné : disons maison. Chaque joueur a alors un temps limité pour dessiner une maison mais n’a accès qu’à sa demi-moitié d’écran ! Il faut donc que les 2 joueurs se coordonnent vite pour avoir une maison qui sera un dessin commun des deux joueurs.<br /> </li>
+                    <li>Les équipes et le thème de dessin changent ensuite jusqu’à ce que toutes les équipes possibles aient pu jouer.<br /> </li>
+                    <li>Enfin chaque joueur peut voter pour les dessins, en leur attribuant une note, ce qui permet de calculer les scores et le vainqueur!<br /> </li>
+                </ul>
+            </div>
+        </div>
+
+        <div id="droite">
+            <div onclick="ouvre(1)" id="room1" class="ro"> <a href="room1.html"> Room1 </a><p id=l1>text</p></div>
+            <div onclick="ouvre(2)" id="room2" class="ro"><a href="room2.html"> Room2 </a><p id=l2>text</p></div>
+            <div onclick="ouvre(3)" id="room3" class="ro"><a href="room3.html"> Room3 </a><p id=l3>text</p></div>
+            <div onclick="ouvre(4)" id="room4" class="ro"><a href="room4.html"> Room4 </a><p id=l4>text</p></div>
+            <div onclick="ouvre(5)" id="room5" class="ro"><a href="room5.html"> Room5 </a><p id=l5>text</p></div>
+            <div onclick="ouvre(6)" id="room6" class="ro"><a href="room6.html"> Room6 </a><p id=l6>text</p></div>
+            <div onclick="ouvre(7)" id="room7" class="ro"><a href="room7.html"> Room7 </a><p id=l7>text</p></div>
+            <div onclick="ouvre(8)" id="room8" class="ro"><a href="room8.html"> Room8 </a><p id=l8>text</p></div>
+            <div onclick="ouvre(9)" id="room9" class="ro"><a href="room9.html"> Room9 </a><p id=l9>text</p></div>
+            <div onclick="ouvre(10)" id="room10" class="ro"><a href="room10.html"> Room10 </a><p id=l10>text</p></div>
+        </div>
+    </div>
+</body>

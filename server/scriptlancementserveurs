@@ -1,0 +1,11 @@
+#!/bin/bash
+nohup python3 app.py 1 &
+nohup python3 app.py 2 &
+nohup python3 app.py 3 &
+nohup python3 app.py 4 &
+nohup python3 app.py 5 &
+nohup python3 app.py 6 &
+nohup python3 app.py 7 &
+nohup python3 app.py 8 &
+nohup python3 app.py 9 &
+nohup python3 app.py 10 &

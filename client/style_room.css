@@ -1,0 +1,46 @@
+body{
+    background: linear-gradient(45deg, blue
+    , red, rgb(235, 14, 228), purple);
+    background-size: 400% 400%;
+    animation: gradient 10s ease infinite;
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+}
+
+#name{
+    align-items: center;
+    margin-top: 1%;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Fredoka One', cursive;
+    font-size: 2em;
+    color: black;
+}
+
+#sketch-holder{
+    margin-top: 3%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@keyframes gradient {
+    0%{
+        background-position: 25% 75%;
+    }
+    20%{
+        background-position: 75% 75%;
+    }
+    40%{
+        background-position: 25% 25%;
+    }
+    60%{
+        background-position: 75% 25%;
+    }
+    80%{
+        background-position: 75% 25%;
+    }
+    100%{
+        background-position: 25% 75%;
+    }
+}

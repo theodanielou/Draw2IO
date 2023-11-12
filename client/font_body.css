@@ -1,0 +1,42 @@
+body{
+    background: linear-gradient(45deg, rgb(19, 19, 205)
+    , rgb(24, 98, 111), rgb(202, 7, 199), purple);
+    background-size: 400% 400%;
+    animation: gradient 10s ease infinite;
+    height: 700px;
+}
+
+#nom{
+    font-family: 'Fredoka One', cursive;
+    font-size: 2em;
+    color: white;
+}
+
+#boite,#droite,#bouton,#form{
+    font-family: 'Montserrat', sans-serif;
+}
+
+#connexion{
+    font-size: 20px;
+}
+
+@keyframes gradient {
+    0%{
+        background-position: 25% 75%;
+    }
+    20%{
+        background-position: 75% 75%;
+    }
+    40%{
+        background-position: 25% 25%;
+    }
+    60%{
+        background-position: 75% 25%;
+    }
+    80%{
+        background-position: 75% 25%;
+    }
+    100%{
+        background-position: 25% 75%;
+    }
+}
