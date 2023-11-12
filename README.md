@@ -1,14 +1,13 @@
-# PRO3600-22-TAC-14
+# Draw2IO is a multiplayer web game 
 
-Jeu WEB multijoueur, 2D (Python, Flask, JavaScript, HTML, CSS)
+The game is available at this link : https://www.youtube.com/watch?v=Jdf3ohmjG1M
 
-Le jeu est disponible à cette adresse : http://draw2io.h.minet.net/
+# Visual Demo : Running 4 players on one screen
 
-Le groupe est constitué de Théo, Rohit, David et Brieuc
+https://www.youtube.com/watch?v=Jdf3ohmjG1M
 
-#Livrable prototype 25/03
+# Quick presentation 
+This game is a two vs two drawing game. Each team receives a word (say "house") and has to draw a house, but there's a catch ! Both player draw on the same canvas, and each can only draw on half the canvas.
+This way each player participates in a drawing, but only by drawing on half the possible canvas. This means that your cooperation skills are crucial to get to a good final result! At the end of the round, the teams are mixed up and another word comes up. At the end of a given number of round, the game ends and players get to vote for each drawing (if they like it more or less)
+Then the each player gets more or less points depending on whether the drawings he had a part in had good votes or not, and the final winner is chosen !
 
-Pour utiliser les démos :
-0. cloner le projet
-1. Pour la démo du jeu : aller dans le dossier "deuxieme démo" et suivre les instructions (README.md)
-2. Pour la démo des salles : aller dans le dossier "Démo salle" et suivre les instructions
